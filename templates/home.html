@@ -1,10 +1,11 @@
-{% extends "layout.html" %}
+
+{% extends "frontpage.html" %}
 
 {% block content %}
 
 <h1>My Recipes</h1>
 
-<div class="flex three demo">
+<div class="col-3">
 
 {% for post in posts %}
 
@@ -31,6 +32,12 @@
         </article>
 
     </div>
+
+<!-- 
+    <p>
+            <h2>{{loop.index}}: <a href="posts/{{ post.slug }}.html">{{post.title}}</a> <small>{{post.date}}</small></h2>
+            {{post.summary}}
+        </p> -->
 
 {% endfor %}
 
