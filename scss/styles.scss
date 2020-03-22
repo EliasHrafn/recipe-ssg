@@ -1,13 +1,15 @@
 body {
-    background-color: beige;
+    background-color: bisque;
 }
+
 .mybutton {
-    background: #f7786b;
+    background: #ff7777;
     font-size: 0.75em;
 }
 .card {
+//   @include bradius5;
     background-color: #fff;
-    border-radius: .4em;
+    border-radius: -5px 10px 10 px;
     padding: 1em;
 }
 img {
@@ -16,16 +18,43 @@ img {
 }
 .stretch {
     display: grid;
-    justify-content: stretch;
+    align-items: stretch;
 }
-.container {
-    width: 80%;
-    margin: auto;
-    margin-top: 3em;
+.topmenu a {
+    display: block;
+    padding: .9em 1em;
+    color: #592550;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: left;
 }
-
-.mybutton {
-    background: #f7786b;
-    font-size: 0.75em;
+.topmenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0 0 .5em 0;
+    padding: 0;
 }
-@import 'layout';
+@media screen and (min-width: 37.5em) {
+.topmenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row;
+    flex-flow: row;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+}
+@import 'layout', 'icomoon','socialButts';

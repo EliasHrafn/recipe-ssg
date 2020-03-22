@@ -1,23 +1,29 @@
 .container {
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 1em;
+    max-width: 70em;
+    margin: auto;
+    margin-top: 3em;
 }
 .col-2 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 2em;
 }
 .col-3 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 2em;
 }
-@media screen and (min-width:37.5em) {
-    .container {
-        max-width: 40em;
-        margin: 0 auto;
-    }
+.headcol-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.col-3-1 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.col-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+@media screen and (min-width: 37.5em) {
     .col-2 {
         display: grid;
         grid-template-columns: 1fr;
@@ -29,11 +35,8 @@
         grid-gap: 2em;
     }
 }
-@media screen and (min-width:60em) {
-    .container {
-        max-width: 70em;
-        margin: 0 auto;
-    }
+// fartölvur
+@media screen and (min-width: 60em) {
     .col-2 {
         display: grid;
         grid-template-columns: 1fr 1fr;
