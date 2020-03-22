@@ -1,25 +1,16 @@
-  
-@import 'layout', 'icomoon';
-*{font-family: 'Raleway', sans-serif;}
-h1{text-align: center;}
 body {
-    background-color: #2f3640;
-    color: #fff;
+    background-color: bisque;
+}
+
+.mybutton {
+    background: #ff7777;
+    font-size: 0.75em;
 }
 .card {
+//   @include bradius5;
     background-color: #fff;
-    color: #000;
-    border-radius: .4em;
+    border-radius: -5px 10px 10 px;
     padding: 1em;
-}
-.card a{
-    background: #353b48;
-    transition: all 0.3s;
-    color: #fff;
-    padding: .15em;
-    text-decoration: none;
-    border: 0.5;
-    border-radius: 1.2em;
 }
 img {
     max-width: 100%;
@@ -27,23 +18,7 @@ img {
 }
 .stretch {
     display: grid;
-    justify-content: stretch;
-}
-.container {
-    width: 80%;
-    margin: auto;
-    margin-top: 3em;
-}
- 
-.mybutton {
-    background: #353b48;
-    color: #fff;
-    border: 0.5;
-    font-size: 0.75em;
-    margin: .3em 0;
-    cursor: pointer;
-    transition: all 0.3s;
-    border-radius: 1.2em;
-    height: auto;
-    box-shadow: 0 0 transparent inset;
-}
+    align-items: stretch;
+} 
+
+@import 'layout', 'icomoon';
