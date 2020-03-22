@@ -3,8 +3,8 @@ title: Ostakaka
 date: 2020-02-06
 tags: Einfalt, Bakstur
 thumbnail: img/ostakaka.jpg
-summary: Hátíðleg ostakaka sem auðvelt er að gera.
-slug: ostakaka
+summary: - ath heiti myndar, hvar er hún? Hátíðleg ostakaka sem auðvelt er að gera.
+slug: ostakaka 
 ---
 
 __Hráefni__

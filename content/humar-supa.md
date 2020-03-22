@@ -3,8 +3,8 @@ title: Ljúffenga humarsúpan
 date: 2020-02-06
 tags: Einfalt, Elda
 thumbnail: img/humar-supa.jpg
-summary: Þessi humarsúpa er einstaklega bragðgóð, kraftmikil og silkimjúk.
-slug: humar-supa
+summary: ath! humar-supa.jpg Þessi humarsúpa er einstaklega bragðgóð, kraftmikil og silkimjúk.
+slug: humar-supa 
 ---
 
 __Hráefni__

@@ -3,8 +3,8 @@ title: Karamellukartöflur
 date: 2020-02-06
 tags: Elda, Sætt, Einfalt
 thumbnail: img/karamellu-kartoflur.jpg
-summary: Bestu karamellukartöflur sem til eru, ótrúlega einfalt að gera.
-slug: karamellu-kartoflur
+summary: - ath heiti myndar, hvar er hún? Bestu karamellukartöflur sem til eru, ótrúlega einfalt að gera.
+slug: karamellu-kartoflur 
 ---
 
 __Hráefni__

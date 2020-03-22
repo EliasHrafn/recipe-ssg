@@ -3,11 +3,13 @@ title: Meinhollar Súkkulaðimuffins
 date: 2020-02-06
 tags: Sætt, Bakstur, Einfalt
 thumbnail: img/hollar-muffins.jpg
-summary: Það er frábært að leyfa börnunum að spreyta sig á þessum kökum.
+summary: img/hollar-muffins.jpg?? Það er frábært að leyfa börnunum að spreyta sig á þessum kökum.
 slug: hollar-muffins
 ---
 
 __Hráefni__
+
+ATH! engin mynd til sem heitir "hollar-muffins!
 
 + 100 gr möndlur
 + 200 gr döðlur

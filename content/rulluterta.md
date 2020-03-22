@@ -3,8 +3,8 @@ title: Heitt rúllutertubrauð
 date: 2020-02-06
 tags: Brauð, Elda
 thumbnail: img/rulluterta.jpg
-summary: Al-íslensk rúlluterta sem er komin á næsta stig.
-slug: rulluterta
+summary: - - ath heiti myndar, hvar er hún? Al-íslensk rúlluterta sem er komin á næsta stig.
+slug: rulluterta 
 ---
 
 __Hráefni__

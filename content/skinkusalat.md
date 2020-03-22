@@ -3,8 +3,8 @@ title: Einfalt og gott skinkusalat
 date: 2020-02-06
 tags: Einfalt, Hollt
 thumbnail: img/skinkusalat.jpg
-summary: Einfalt og gott skinkusalat.
-slug: skinkusalat
+summary: - ath heiti myndar, hvar er hún? Einfalt og gott skinkusalat.
+slug: skinkusalat 
 ---
 
 __Hráefni__

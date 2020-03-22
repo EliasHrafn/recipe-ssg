@@ -3,8 +3,8 @@ title: Grillaðar kjúklingastangir
 date: 2020-02-06
 tags: Elda, Einfalt
 thumbnail: img/kjuklinga-stangir.jpg
-summary: Kjúklingabrauðstangir á grillið, snilld fyrir krakkana.
-slug: kjuklinga-stangir
+summary: - ath heiti myndar, hvar er hún? Kjúklingabrauðstangir á grillið, snilld fyrir krakkana.
+slug: kjuklinga-stangir 
 ---
 
 __Hráefni__
