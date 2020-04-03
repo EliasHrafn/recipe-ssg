@@ -75,8 +75,10 @@
     white-space: nowrap;
   }
   @keyframes kvikun {
-        0% { transform: translateY(-130%);
-            right: -100%; }
+        0% { transform: translateY(40px);
+            right: -23%; }
+        50% { transform: translateY(-170%); }
+        
         100% { transform: translateY(-130%); 
             right: -23%; }
     }
