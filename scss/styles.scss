@@ -6,6 +6,9 @@ body {
     background: #ff7777;
     font-size: 0.75em;
 }
+.fieldset1 {
+    background: whitesmoke;
+}
 .card {
 //   @include bradius5;
     background-color: #fff;
@@ -135,4 +138,4 @@ input[type="checkbox" i] {
 }
 }
 
-@import 'layout', 'icomoon','socialButts';
+@import 'layout', 'icomoon','socialButts','Table';

@@ -20,14 +20,17 @@ env = Environment(loader=PackageLoader('main', 'templates'))
 index_template = env.get_template('index.html')
 bread_template = env.get_template('bread.html')
 post_template = env.get_template('post.html')
-
+form_template = env.get_template('Form.html')
 # forsíðan er ekki með MD post renderingu
 index_html = index_template.render()
-
+form_html = form_template.render()
 # brauðuppskriftir
 posts_metadata = [POSTS[post].metadata for post in POSTS]
 tags = [post['tags'] for post in posts_metadata]
 bread_html = bread_template.render(posts=posts_metadata, tags=tags)
+
+with open('../recipes/Form.html', 'w') as file:
+    file.write(form_html)
 
 with open('../recipes/index.html', 'w', encoding='utf-8') as file:
     file.write(index_html)

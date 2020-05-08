@@ -1,0 +1,62 @@
+{% extends "mainpage.html" %}
+{% block content %}
+<fieldset class="fieldset1">
+    <legend>Required fields are marked *</legend>
+    <label class="col-2">
+        <textarea rows="4" name="Athugasemdir"></textarea>
+    </label>
+<div class="col-2">
+    <div><label>
+        <br>Catagory for recipe - 
+        <select name="Cata">
+            <option value="0" selected=""></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select> <br> <br>
+        Link to recipe (If availible) <br>
+        <input type="text" name="nafn" placeholder="Http:// or Https://" required=""> <br>
+    </label>
+    <br>
+    <br>
+    <label for="Stars">
+            Rate this recipe<br>
+            <input type="checkbox" name="1 star" value="1"> Easy<br>
+            <input type="checkbox" name="2 star" value="2"> Quality<br>
+            <input type="checkbox" name="3 star" value="3"> Exotic recipe<br>
+            <br>
+            <input type="checkbox" name="3 star" value="3"> Register me to My Recipe food club<br>
+            <input type="checkbox" name="3 star" value="3"> Let me know when new recipes are published<br>
+    </label>
+    </div>
+    <div cla>
+        <label>
+            Name: <br>
+            <input type="text" name="nafn" placeholder="Full name" required="" autofocus="" title="Vinsamlegast skráið nafn"> <br>
+        </label>
+        <br>
+        <label>
+            Phone: <br>
+            <input type="text" name="nafn" placeholder="123 4567" required="" pattern="\d{3}(?:[\-\s]?)\d{4}"><br>
+        </label>
+        <br>
+        <label>
+            Email: <br>
+            <input type="text" name="nafn" placeholder="Valid Email @ddress" required=""><br>
+        </label>
+        <br>
+        <label>
+            Date of writing: <br>
+            <input type="date" name="nafn" placeholder="Full name" required=""><br>
+        </label>
+        <br>
+        <label>
+            Your email address will not be published. <br>
+            <input type="submit" name="submit" value="Senda" />
+        </label>
+    </div>
+</div>
+</fieldset>
+{% endblock %}
